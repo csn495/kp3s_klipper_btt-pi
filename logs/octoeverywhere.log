@@ -1,0 +1,418 @@
+2023-09-15 22:46:18,075 - INFO - ##################################
+2023-09-15 22:46:18,076 - INFO - #### OctoEverywhere Starting #####
+2023-09-15 22:46:18,077 - INFO - ##################################
+2023-09-15 22:46:18,083 - INFO - Plugin Version: 2.7.10
+2023-09-15 22:46:18,086 - INFO - Our update config include was not found in the moonraker config, so we added it.
+2023-09-15 22:46:18,088 - INFO - No update config found or it was out of date, writing a new file.
+2023-09-15 22:46:18,089 - INFO - No config file was found on disk, so we are going to attempt to restart moonraker.
+2023-09-15 22:46:19,100 - INFO - No printer id was found, generating one now!
+2023-09-15 22:46:19,112 - INFO - New printer id created: U21XBM9AS4QCCJPOZS0ZA1LY3RN4RQP9J5E622DPAS9826WHMAI1M6DIYEU9
+2023-09-15 22:46:19,114 - INFO - No private key was found, generating one now!
+2023-09-15 22:46:19,126 - INFO - New private key created.
+2023-09-15 22:46:19,128 - INFO - We found our name existing in the moonraker allowed service file, so there's nothing to do.
+2023-09-15 22:46:19,131 - INFO - MDns cache file reset
+2023-09-15 22:46:19,144 - INFO - Setting up relay with frontend port 80
+2023-09-15 22:46:19,146 - INFO - OctoPingPong stats reset
+2023-09-15 22:46:19,149 - INFO - PingPong has detected a first time run. Updating latency stats now.
+2023-09-15 22:46:19,151 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:46:19,166 - INFO - No existing ui tags found, so we added them
+2023-09-15 22:46:19,175 - INFO - Updating the sw.js index.html revision [f101324d9f4736e706dcd2108219da7c] -> [g8pzfskruj4hw0xrhmhdovi6n1n19li4]
+2023-09-15 22:46:19,177 - INFO - Sw.js [/home/biqu/mainsail/sw.js] updated.
+2023-09-15 22:46:19,237 - INFO - MoonrakerApiRouter using bound to moonraker at port 7125
+2023-09-15 22:46:19,240 - INFO - Attempting to talk to OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[1] wsId:281472941793040
+2023-09-15 22:46:19,592 - INFO - Websocket connected
+2023-09-15 22:46:19,595 - INFO - Connected To OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[1]. Starting handshake...
+2023-09-15 22:46:20,140 - INFO - Handshake complete, server con wss://starport-v1.octoeverywhere.com/octoclientws[1], successfully connected to OctoEverywhere!
+2023-09-15 22:46:20,142 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2023-09-15 22:46:20,144 - WARNING - 
+2023-09-15 22:46:20,145 - WARNING - 
+2023-09-15 22:46:20,147 - WARNING - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2023-09-15 22:46:20,148 - WARNING - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2023-09-15 22:46:20,149 - WARNING -           This Plugin Isn't Connected To OctoEverywhere!          
+2023-09-15 22:46:20,151 - WARNING -  Use the following link to finish the setup and get remote access:
+2023-09-15 22:46:20,152 - WARNING -  https://octoeverywhere.com/getstarted?isFromKlipper=true&printerid=U21XBM9AS4QCCJPOZS0ZA1LY3RN4RQP9J5E622DPAS9826WHMAI1M6DIYEU9
+2023-09-15 22:46:20,153 - WARNING - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2023-09-15 22:46:20,154 - WARNING - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2023-09-15 22:46:20,155 - WARNING - 
+2023-09-15 22:46:20,156 - WARNING - 
+2023-09-15 22:46:20,157 - INFO - Starting Moonraker connection client.
+2023-09-15 22:46:20,159 - INFO - Moonraker client starting websocket connection thread.
+2023-09-15 22:46:20,168 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:46:20,173 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:46:20,174 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:46:20,177 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:46:20,178 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:46:22,188 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:46:22,194 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:46:22,194 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:46:22,197 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:46:22,198 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:46:24,207 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:46:24,210 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:46:24,211 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:46:24,213 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:46:24,214 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:46:24,222 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2023-09-15 22:46:24,223 - INFO - Moonraker client failed to send JsonRPC request server.webcams.list
+2023-09-15 22:46:24,224 - WARNING - Moonraker webcam helper failed to query for webcams from API. 99990001 - No active websocket connected.
+2023-09-15 22:46:24,225 - INFO - Moonraker client - tired to send a websocket message when the socket wasn't open.
+2023-09-15 22:46:24,226 - INFO - Moonraker client failed to send JsonRPC request server.database.get_item
+2023-09-15 22:46:24,228 - WARNING - Moonraker webcam helper failed to query for webcams. 99990001 - No active websocket connected.
+2023-09-15 22:46:26,222 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:46:26,227 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:46:26,228 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:46:26,230 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:46:26,231 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:46:28,241 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:46:28,301 - INFO - Websocket connected
+2023-09-15 22:46:28,303 - INFO - Moonraker client websocket opened.
+2023-09-15 22:46:28,305 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:46:28,307 - INFO - Authenticating with moonraker...
+2023-09-15 22:46:28,376 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:46:28,383 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2023-09-15 22:46:30,391 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2023-09-15 22:46:30,393 - INFO - Moonraker client setting up default notification hooks
+2023-09-15 22:46:30,799 - INFO - Printer state at socket connect is: standby
+2023-09-15 22:46:30,800 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2023-09-15 22:47:19,185 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:47:19,187 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:48:19,190 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:48:19,192 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:49:19,194 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:49:19,196 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:49:32,728 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2023-09-15 22:49:32,732 - WARNING - Web Stream http [2]  failed to make http request. octoHttpResult was None; url:/webcam/?action=snapshot
+2023-09-15 22:49:36,824 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2023-09-15 22:49:36,828 - WARNING - Web Stream http [4]  failed to make http request. octoHttpResult was None; url:/webcam/?action=snapshot
+2023-09-15 22:50:19,199 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:50:19,201 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:51:19,203 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:51:19,205 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:52:19,208 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:52:19,209 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:53:19,212 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:53:19,214 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:54:19,217 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:54:19,219 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:54:33,756 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:54:33,758 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:54:35,768 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:54:35,774 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:54:35,776 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:54:35,778 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:54:35,780 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:54:37,789 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:54:37,793 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:54:37,794 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:54:37,796 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:54:37,797 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:54:39,805 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:54:39,809 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:54:39,809 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:54:39,811 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:54:39,812 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:54:41,823 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:54:41,827 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:54:41,828 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:54:41,831 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:54:41,832 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:54:43,841 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:54:43,845 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:54:43,846 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:54:43,848 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:54:43,849 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:54:45,868 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:54:45,872 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:54:45,873 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:54:45,875 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:54:45,876 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:54:47,885 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:54:47,889 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:54:47,889 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:54:47,891 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:54:47,892 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:54:49,900 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:54:49,916 - INFO - Websocket connected
+2023-09-15 22:54:49,918 - INFO - Moonraker client websocket opened.
+2023-09-15 22:54:49,920 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:54:49,922 - INFO - Authenticating with moonraker...
+2023-09-15 22:54:49,975 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:54:49,982 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2023-09-15 22:54:49,983 - INFO - Moonraker client setting up default notification hooks
+2023-09-15 22:54:50,256 - INFO - Printer state at socket connect is: standby
+2023-09-15 22:54:50,257 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2023-09-15 22:55:19,222 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:55:19,224 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:55:25,688 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:55:25,690 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:55:27,707 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:55:27,709 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:55:27,714 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:55:27,714 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:55:27,717 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:55:27,718 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:55:29,725 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:55:29,726 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:55:29,731 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:55:29,731 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:55:29,733 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:55:29,734 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:55:31,745 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:55:31,747 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:55:31,751 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:55:31,752 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:55:31,754 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:55:31,754 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:55:33,766 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:55:33,768 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:55:33,789 - INFO - Websocket connected
+2023-09-15 22:55:33,792 - INFO - Moonraker client websocket opened.
+2023-09-15 22:55:33,794 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:55:33,797 - INFO - Authenticating with moonraker...
+2023-09-15 22:55:33,862 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:55:33,868 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2023-09-15 22:55:35,877 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2023-09-15 22:55:35,878 - INFO - Moonraker client setting up default notification hooks
+2023-09-15 22:55:36,252 - INFO - Printer state at socket connect is: standby
+2023-09-15 22:55:36,253 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2023-09-15 22:56:09,047 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2023-09-15 22:56:09,049 - INFO - Moonraker client websocket shutdown called.
+2023-09-15 22:56:09,054 - INFO - Moonraker client websocket shutdown complete.
+2023-09-15 22:56:09,055 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2023-09-15 22:56:09,059 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:56:09,060 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:56:11,071 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:56:11,073 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:56:11,088 - INFO - Websocket connected
+2023-09-15 22:56:11,090 - INFO - Moonraker client websocket opened.
+2023-09-15 22:56:11,092 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:56:11,094 - INFO - Authenticating with moonraker...
+2023-09-15 22:56:11,143 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:56:11,151 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2023-09-15 22:56:15,167 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2023-09-15 22:56:15,168 - INFO - Moonraker client setting up default notification hooks
+2023-09-15 22:56:15,578 - INFO - Printer state at socket connect is: standby
+2023-09-15 22:56:15,579 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2023-09-15 22:56:19,226 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:56:19,228 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:57:19,231 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:57:19,233 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:57:24,010 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:57:24,012 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:57:26,022 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:57:26,024 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:57:26,029 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:57:26,030 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:57:26,032 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:57:26,033 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:57:28,046 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:57:28,048 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:57:28,052 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:57:28,053 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:57:28,056 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:57:28,057 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:57:30,066 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:57:30,067 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:57:30,071 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:57:30,072 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:57:30,074 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:57:30,075 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:57:32,085 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:57:32,086 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:57:32,091 - ERROR - Exception rased from moonraker client websocket connection. The connection will be closed.; ConnectionRefusedError Exception: [Errno 111] Connection refused; NoneType: None
+
+2023-09-15 22:57:32,091 - ERROR - [Errno 111] Connection refused - goodbye
+2023-09-15 22:57:32,093 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:57:32,094 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:57:34,103 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:57:34,104 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:57:34,120 - INFO - Websocket connected
+2023-09-15 22:57:34,122 - INFO - Moonraker client websocket opened.
+2023-09-15 22:57:34,124 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:57:34,125 - INFO - Authenticating with moonraker...
+2023-09-15 22:57:34,175 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:57:34,181 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2023-09-15 22:57:36,190 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2023-09-15 22:57:36,191 - INFO - Moonraker client setting up default notification hooks
+2023-09-15 22:57:36,609 - INFO - Printer state at socket connect is: standby
+2023-09-15 22:57:36,610 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2023-09-15 22:58:19,236 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:58:19,238 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 22:58:40,095 - INFO - Moonraker client received notify_klippy_disconnected notification, so we will restart our client connection.
+2023-09-15 22:58:40,097 - INFO - Moonraker client websocket shutdown called.
+2023-09-15 22:58:40,104 - INFO - Moonraker client websocket shutdown complete.
+2023-09-15 22:58:40,106 - INFO - Ignoring KlippyDisconnectedOrShutdown notification because we aren't tracking a print.
+2023-09-15 22:58:40,108 - INFO - Moonraker websocket connection closed.
+2023-09-15 22:58:40,110 - INFO - Moonraker client websocket connection lost. We will try to restart it soon.
+2023-09-15 22:58:42,121 - ERROR - Failed to read moonraker port and host from config, assuming defaults. Host:0.0.0.0 Port:7125; DuplicateSectionError Exception: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists; Traceback (most recent call last):
+  File "/home/biqu/octoeverywhere/moonraker_octoeverywhere/moonrakerclient.py", line 165, in GetMoonrakerHostAndPortFromConfig
+    moonrakerConfig.read(self.MoonrakerConfigFilePath)
+  File "/usr/lib/python3.9/configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "/usr/lib/python3.9/configparser.py", line 1067, in _read
+    raise DuplicateSectionError(sectname, fpname,
+configparser.DuplicateSectionError: While reading from '/home/biqu/printer_data/config/moonraker.conf' [line 96]: section 'update_manager timelapse' already exists
+
+2023-09-15 22:58:42,123 - INFO - Connecting to moonraker: ws://0.0.0.0:7125/websocket
+2023-09-15 22:58:42,137 - INFO - Websocket connected
+2023-09-15 22:58:42,139 - INFO - Moonraker client websocket opened.
+2023-09-15 22:58:42,141 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:58:42,144 - INFO - Authenticating with moonraker...
+2023-09-15 22:58:42,212 - INFO - Moonraker client waiting for klippy ready...
+2023-09-15 22:58:42,219 - INFO - Moonraker client got klippy state 'startup', waiting for ready...
+2023-09-15 22:58:46,235 - INFO - Moonraker client klippy state is ready. Moonraker connection is ready and stable.
+2023-09-15 22:58:46,236 - INFO - Moonraker client setting up default notification hooks
+2023-09-15 22:58:46,585 - INFO - Printer state at socket connect is: standby
+2023-09-15 22:58:46,586 - INFO - Moonraker client sync state: Detected no active print and no ping timers are running, so there's nothing to do.
+2023-09-15 22:59:19,241 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 22:59:19,243 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 23:00:19,246 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 23:00:19,248 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 23:01:02,245 - INFO - Gadget is now watching!
+2023-09-15 23:01:02,254 - INFO - FileMetadataCache updated for file [3DBenchy.gcode]; est time: 7069.0, size: 3587, filament usage: 4515
+2023-09-15 23:01:02,257 - INFO - Gadget has stopped watching!
+2023-09-15 23:01:02,257 - INFO - RepeatTimer thread exit
+2023-09-15 23:01:02,258 - INFO - RepeatTimer thread exit
+2023-09-15 23:01:02,261 - INFO - RepeatTimer thread exit
+2023-09-15 23:01:02,265 - INFO - Gadget is now watching!
+2023-09-15 23:01:02,269 - INFO - New print started; PrintId: IUtC6wJHmSwOY6ZyaCyTw7rwEyzDr7MHcqWjFtWqPuQRbAAW6yYaZUDkXQY6 file:3DBenchy.gcode size:3587 filament:4515
+2023-09-15 23:01:02,803 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2023-09-15 23:01:02,807 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2023-09-15 23:01:03,253 - INFO - Popup Notification Received. Title:🎥 Share Your Print; Text:Instantly share a <strong>free and secure live stream</strong> of this print with your friends or the entire world using OctoEverywhere's new Live Links!; Type:notice; ShowFor:5 OnlyOe: False
+2023-09-15 23:01:03,310 - INFO - NotificationsHandler successfully sent 'started'
+2023-09-15 23:01:03,815 - INFO - NotificationsHandler successfully sent 'resume'
+2023-09-15 23:01:19,251 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 23:01:19,252 - INFO - Updating server latencies...
+2023-09-15 23:01:19,263 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 23:01:29,366 - INFO - Ping Pong Stats: Default:[nyc,61.21468544006348], Lowest:[tor,46.75889015197754] Use Low Latency Enabled: True
+2023-09-15 23:01:29,368 - INFO - First run latency callback fired, disconnecting primary OctoStream to reconnect to most ideal latency server. Current: wss://starport-v1.octoeverywhere.com/octoclientws[1].
+2023-09-15 23:01:29,369 - INFO - Closing all open web stream sockets (0)
+2023-09-15 23:01:29,370 - INFO - OctoServerCon websocket close start. IsPrimary?:True; wsId:281472941793040
+2023-09-15 23:01:29,423 - INFO - Service websocket closed.
+2023-09-15 23:01:29,425 - INFO - OctoServerCon disconnect complete.
+2023-09-15 23:01:29,432 - INFO - Disconnected from OctoEverywhere, server con wss://starport-v1.octoeverywhere.com/octoclientws[1]
+2023-09-15 23:01:29,435 - INFO - Closing all open web stream sockets (0)
+2023-09-15 23:01:29,437 - INFO - Skipping reconnect delay due to instant reconnect request.
+2023-09-15 23:01:29,438 - INFO - Attempting to use lowest latency server: wss://tor.octoeverywhere.com/octoclientws
+2023-09-15 23:01:29,439 - INFO - Attempting to talk to OctoEverywhere, server con wss://tor.octoeverywhere.com/octoclientws[2] wsId:281472897539808
+2023-09-15 23:01:29,778 - INFO - Websocket connected
+2023-09-15 23:01:29,780 - INFO - Connected To OctoEverywhere, server con wss://tor.octoeverywhere.com/octoclientws[2]. Starting handshake...
+2023-09-15 23:01:30,056 - INFO - Handshake complete, server con wss://tor.octoeverywhere.com/octoclientws[2], successfully connected to OctoEverywhere!
+2023-09-15 23:01:30,057 - INFO - Primary Connection To OctoEverywhere Established - We Are Ready To Go!
+2023-09-15 23:01:32,589 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2023-09-15 23:02:02,921 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2023-09-15 23:02:19,265 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 23:02:19,267 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 23:02:33,258 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2023-09-15 23:03:03,605 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2023-09-15 23:03:19,270 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 23:03:19,272 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 23:03:33,949 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2023-09-15 23:04:04,280 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2023-09-15 23:04:19,274 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 23:04:19,276 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 23:04:34,622 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2023-09-15 23:05:04,962 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2023-09-15 23:05:19,279 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 23:05:19,281 - INFO - Found existing ui tags and the hash matches the current files.
+2023-09-15 23:05:35,299 - INFO - Waiting to predict with Gadget because the printer is warming up.
+2023-09-15 23:06:05,923 - INFO - Snapshot fallback failed due to the http call having a bad status: 502
+2023-09-15 23:06:19,284 - INFO - Static UI Files Hash: fcccd2ff04
+2023-09-15 23:06:19,286 - INFO - Found existing ui tags and the hash matches the current files.
