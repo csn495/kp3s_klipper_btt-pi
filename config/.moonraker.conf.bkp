@@ -98,3 +98,5 @@ install_script = install.sh
 managed_services = 
 	octoeverywhere
 
+[timelapse]
+
